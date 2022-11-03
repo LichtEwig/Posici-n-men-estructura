@@ -1,0 +1,155 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block; 
+    padding: 5px;
+    margin: 20px;
+
+}
+
+section h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(170, 67, 93);
+    display: inline-block;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+/*codigo para cajas*/
+
+.caja1{
+    background-color: rgb(21, 3, 34);
+    width: 700px;
+    padding: 40px;
+    margin: 40px auto;
+    border-top: solid 5px rgb(16, 10, 99);
+    border-right: solid 10px rgb(27, 58, 160);
+    border-bottom: solid 7px rgb(24, 51, 141);
+    border-left: solid 12px rgb(24, 51, 141);
+    border-radius: 20%;
+    height: 200px;
+    overflow: auto;
+}
+
+.caja1 p{
+    font-size: x-large;
+}
+
+.caja2{
+    background-color: rgb(1, 1, 2);
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px rgb(88, 19, 156) solid;
+}
+     /*codigo para positions*/
+
+     /* Código para positions */
+
+.caja{
+    width: 100px;
+    height: 100px;
+    margin:20px;
+}
+.amarillo{
+    background-color: yellow;
+}
+.rojo{
+    background-color: red;
+    position: sticky;
+    top: 40px; 
+    left: 40px;
+}
+.verde{
+    background-color: green;
+    position: relative;
+    top:50px;
+    left:50px;
+    z-index: -1;
+}
+.azul{
+    background-color: blue;
+    z-index: 1;
+}
+.espacio{
+    background-color: rgb(202, 97, 176);
+    width: 300px;
+    height: 800px;
+}
+
+/* a partir de aca es el código de la botonera*/
+nav{
+    padding: 1rem;
+}
+.menu{
+    list-style-type: none;
+    margin: 10px;
+    background-color: blueviolet;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    background-color: #3a0e63;
+    padding:10px;
+}
+.menu li a{
+    text-decoration: none;
+    color:white;
+}
+.menu li:hover{
+    color:#3a0e63;
+    background-color: rgb(226, 43, 186);
+    border-radius: 50%;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+    color: rgb(230, 106, 156);
+}
+ul {
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding:20px;
+  margin: 20px;
+  background-color: rgb(67, 30, 78);
+  font-size:0 /* truco por el uso de inline-block*/
+    }
+.menu li {
+    display: inline-block;
+    width: 20%;
+    position:relative;
+    font-size: 20px;
+    }
+.menu ul ul {
+    position: absolute;
+    display: none;
+    }
+    
+.menu ul ul li {
+    display: block;
+    }
+
+.menu li:hover{
+    color: rgb(158, 14, 14);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    color:#f3f3f3;
+}
+
+.menu ul li:hover ul {
+    display:block;
+    background-color: rgb(231, 231, 231);
+    border-radius: 50;
+}
+   
+
